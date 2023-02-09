@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+   <body>
+      <form action = "{{ url_for('registered') }}" method = "POST">
+
+         <h3>Create Account</h3>
+         Username<br>
+         <input type = "text" name = "username" /></br>
+
+         Password<br>
+	 <input type = "text" name = "password" /></br>
+	 First Name<br>
+	 <input type = "text" name = "firstname" /></br>
+	 Last Name<br>
+         <textarea name = "lastname" ></textarea><br>
+	 Email<br>
+         <input type = "text" name = "email" /></br>
+         <input type = "submit" value = "register" /><br>
+      </form>
+   </body>
+</html>
